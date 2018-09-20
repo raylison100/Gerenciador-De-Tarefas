@@ -11,7 +11,7 @@ export class TarefaConcluidaDirective implements OnInit {
 
   ngOnInit(){
     if (this.tarefaConcluida) {
-        this.el.nativeElement.style.textDecoration = "line.through";
+        this.el.nativeElement.style.textDecoration = "line-through";
     }
   }
 }
